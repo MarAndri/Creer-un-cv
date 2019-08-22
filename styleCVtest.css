@@ -1,0 +1,59 @@
+div{
+    border: 1px solid black;
+}
+
+body{
+    width:780px;
+    margin: auto;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat (13, 1fr);
+}
+
+.infophoto{
+    height : 250px;
+    grid-column: 1/10;
+    grid-row: 1/4;
+
+}
+.info{
+    
+}
+.photo{
+    grid-column: 8/10;
+    grid-row: 1/4;
+}
+.section{
+    margin-bottom: 70px; 
+    text-align: justify; 
+}
+.secg{
+    font-weight: bold;
+    font-size: 20px;
+}
+.secd{
+    margin-left: 150px;
+}
+h1{
+    font-size: 26px;
+}
+h2{
+    font-size: 28px;
+    color: teal;
+    text-transform: uppercase;
+    border-bottom: 3px solid teal;
+}
+
+
+
+
+
+
+
+
+img{
+    max-height: 150px;
+    width: auto;
+}
